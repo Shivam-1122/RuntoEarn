@@ -1,0 +1,66 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication and Obfuscation related
+app.*.symbols
+app.*.map.json
+
+# Secrets and Environment Variables
+.env
+# .env.example should NOT be ignored
+
+# Firebase Configuration Files
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+windows/runner/google-services.json
+# Templates should NOT be ignored
+!android/app/google-services.json.example
+!ios/Runner/GoogleService-Info.plist.example
+
+# Android signing
+*.jks
+*.keystore
+android/key.properties
+
+# Logs and Coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node related
+node_modules/
+package-lock.json
+.npm/
+
+# MacOS noise
+.DS_Store
